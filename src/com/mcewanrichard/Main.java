@@ -10,5 +10,15 @@ public class Main {
         king.setWeaponBehaviour(new AxeBehaviour());
         king.performFight();
 
+        System.out.println();
+        System.out.println();
+
+        Character knight = new Knight();
+        knight.fight();
+        knight.performFight();
+        knight.setWeaponBehaviour(new KnifeBehaviour());
+        knight.performFight();
+
+
     }
 }

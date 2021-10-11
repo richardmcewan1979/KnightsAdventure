@@ -6,7 +6,6 @@ public class Knight extends Character {
         weaponBehaviour = new SwordBehaviour();
     }
 
-    @Override
     public void fight() {
         System.out.println("Fighting....");
     }
